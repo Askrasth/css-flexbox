@@ -1,0 +1,88 @@
+<!-- This is my first attempt into css flex-box. Thats just the begining-->
+
+<!-- Html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Css practice</title>
+</head>
+<body>
+    
+<div class="container">
+
+    <div class="title"><p>header</p></div>
+    <div class="menu"><p>nav</p></div>
+    <div class="sec1"><p>section 1</p></div>
+    <div class="aside"><p>aside</p></div>
+    <div class="sec2"><p>section2</p></div>
+    <div class="footer"><p>footer</p></div>
+    
+
+</div>
+
+</body>
+</html>
+
+
+
+
+/* css */ 
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    gap: 15px;
+}
+
+.title{
+    background-color: aliceblue;
+border: solid black 5px;
+width: 200px;
+height: 200px;
+}
+
+.menu{
+    background-color: aliceblue;
+border: solid black 5px;
+width: 200px;
+height: 200px;
+}
+
+.sec1{
+    background-color: aliceblue;
+border: solid black 5px;
+width: 200px;
+height: 200px;
+}
+
+.aside{
+    background-color: aliceblue;
+border: solid black 5px;
+width: 200px;
+height: 200px;
+}
+
+.sec2{
+    background-color: aliceblue;
+border: solid black 5px;
+width: 200px;
+height: 200px;
+}
+
+.footer{
+    background-color: aliceblue;
+border: solid black 5px;
+width: 200px;
+height: 200px;
+}
+
+div{
+    text-align: center;
+}
